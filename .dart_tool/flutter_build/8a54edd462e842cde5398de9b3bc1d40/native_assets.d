@@ -1,0 +1,1 @@
+ P:\\SGL\\FOXL\ AUTOMATION\\purchased_pots\\.dart_tool\\flutter_build\\8a54edd462e842cde5398de9b3bc1d40\\native_assets.yaml: 

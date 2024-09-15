@@ -1,0 +1,10 @@
+P:/SGL/FOXL AUTOMATION/purchased_pots/build/windows/x64/CMakeFiles/INSTALL.dir
+P:/SGL/FOXL AUTOMATION/purchased_pots/build/windows/x64/CMakeFiles/ALL_BUILD.dir
+P:/SGL/FOXL AUTOMATION/purchased_pots/build/windows/x64/CMakeFiles/ZERO_CHECK.dir
+P:/SGL/FOXL AUTOMATION/purchased_pots/build/windows/x64/flutter/CMakeFiles/flutter_wrapper_plugin.dir
+P:/SGL/FOXL AUTOMATION/purchased_pots/build/windows/x64/flutter/CMakeFiles/flutter_wrapper_app.dir
+P:/SGL/FOXL AUTOMATION/purchased_pots/build/windows/x64/flutter/CMakeFiles/flutter_assemble.dir
+P:/SGL/FOXL AUTOMATION/purchased_pots/build/windows/x64/flutter/CMakeFiles/INSTALL.dir
+P:/SGL/FOXL AUTOMATION/purchased_pots/build/windows/x64/runner/CMakeFiles/purchased_pots.dir
+P:/SGL/FOXL AUTOMATION/purchased_pots/build/windows/x64/runner/CMakeFiles/INSTALL.dir
+P:/SGL/FOXL AUTOMATION/purchased_pots/build/windows/x64/runner/CMakeFiles/ALL_BUILD.dir

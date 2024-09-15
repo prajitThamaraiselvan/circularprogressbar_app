@@ -1,0 +1,10 @@
+^P:\SGL\FOXL AUTOMATION\PURCHASED_POTS\BUILD\WINDOWS\X64\CMAKEFILES\0A99F55AFA142142481E1F4880296019\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SP:/SGL/FOXL AUTOMATION/purchased_pots/windows" "-BP:/SGL/FOXL AUTOMATION/purchased_pots/build/windows/x64" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "P:/SGL/FOXL AUTOMATION/purchased_pots/build/windows/x64/purchased_pots.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

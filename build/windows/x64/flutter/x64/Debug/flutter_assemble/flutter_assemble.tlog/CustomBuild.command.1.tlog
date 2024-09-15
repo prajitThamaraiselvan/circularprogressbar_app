@@ -1,0 +1,28 @@
+^P:\SGL\FOXL AUTOMATION\PURCHASED_POTS\BUILD\WINDOWS\X64\CMAKEFILES\47E640DE42BF4723DE559FC5BC7C08DB\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=P:\flutter "PROJECT_DIR=P:\SGL\FOXL AUTOMATION\purchased_pots" FLUTTER_ROOT=P:\flutter "FLUTTER_EPHEMERAL_DIR=P:\SGL\FOXL AUTOMATION\purchased_pots\windows\flutter\ephemeral" "PROJECT_DIR=P:\SGL\FOXL AUTOMATION\purchased_pots" "FLUTTER_TARGET=P:\SGL\FOXL AUTOMATION\purchased_pots\lib\main.dart" DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false "PACKAGE_CONFIG=P:\SGL\FOXL AUTOMATION\purchased_pots\.dart_tool\package_config.json" P:/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^P:\SGL\FOXL AUTOMATION\PURCHASED_POTS\BUILD\WINDOWS\X64\CMAKEFILES\8B87AD9BE9433CC8D6B5DD16FC2F46DD\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^P:\SGL\FOXL AUTOMATION\PURCHASED_POTS\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SP:/SGL/FOXL AUTOMATION/purchased_pots/windows" "-BP:/SGL/FOXL AUTOMATION/purchased_pots/build/windows/x64" --check-stamp-file "P:/SGL/FOXL AUTOMATION/purchased_pots/build/windows/x64/flutter/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

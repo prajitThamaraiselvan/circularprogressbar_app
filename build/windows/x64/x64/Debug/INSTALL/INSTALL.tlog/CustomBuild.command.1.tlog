@@ -1,0 +1,10 @@
+^P:\SGL\FOXL AUTOMATION\PURCHASED_POTS\BUILD\WINDOWS\X64\CMAKEFILES\0A99F55AFA142142481E1F4880296019\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
